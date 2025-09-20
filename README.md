@@ -1,5 +1,3 @@
-### README.md 파일 내용 (최종)
-
 ````markdown
 # 🚀 Crawl_Naver-Cafe-for-bladder_cancer
 
