@@ -1,3 +1,5 @@
+### README.md
+
 ````markdown
 # 🚀 Crawl_Naver-Cafe-for-bladder_cancer
 
@@ -52,25 +54,25 @@
 
 1.  저장소 클론
 
-    ```bash
-    git clone [repository_url]
-    cd BladderCancerInsights
-    ```
+`bash
+    git clone [repository_url]
+    cd BladderCancerInsights
+    `
 
 2.  가상환경 생성 및 활성화
 
-    ```bash
-    python -m venv .venv
-    # Windows
-    .venv\Scripts\activate
-    # macOS/Linux
-    source .venv/bin/activate
-    ```
+`bash
+    python -m venv .venv
+    # Windows
+    .venv\Scripts\activate
+    # macOS/Linux
+    source .venv/bin/activate
+    `
 
 3.  필요한 패키지 설치
-    ```bash
-    pip install -r requirements.txt
-    ```
+        `bash
+    pip install -r requirements.txt
+    `
 
 ---
 
@@ -78,19 +80,19 @@
 
 1.  `.config.example` 파일을 `.config`로 복사합니다.
 
-    ```bash
-    cp .config.example .config
-    ```
+`bash
+    cp .config.example .config
+    `
 
 2.  `.config` 파일을 열어 아래 설정값을 채워주세요.
-    ```ini
-    CAFE_NAME=카페이름
-    CLUB_ID=카페ID
-    MENU_ID=게시판ID
-    PERIOD_DAYS=30
-    NAVER_ID=네이버아이디
-    NAVER_PASSWORD=네이버비밀번호
-    ```
+        `ini
+    CAFE_NAME=카페이름
+    CLUB_ID=카페ID
+    MENU_ID=게시판ID
+    PERIOD_DAYS=30
+    NAVER_ID=네이버아이디
+    NAVER_PASSWORD=네이버비밀번호
+    `
 
 ### 설정값 설명
 
@@ -107,13 +109,13 @@
 
 1.  터미널에서 프로그램을 실행합니다.
 
-    ```bash
-    python main.py
-    ```
+`bash
+    python main.py
+    `
 
 2.  **결과 확인:**
-    - 크롤링된 데이터는 `results` 폴더에 엑셀 파일로 저장됩니다.
-    - 파일명 형식: `naver_cafe_articles_YYYYMMDD_HHMMSS.xlsx`
+        - 크롤링된 데이터는 `results` 폴더에 엑셀 파일로 저장됩니다.
+        - 파일명 형식: `naver_cafe_articles_YYYYMMDD_HHMMSS.xlsx`
 
 ---
 
@@ -150,5 +152,5 @@ MIT License
 
 ## 문의사항
 
-문의사항이나 개선 제안은 [GitHub Issues](https://github.com/your-username/BladderCancerInsights/issues)를 통해 남겨주세요.
+문의사항이나 개선 제안은 [GitHub Issues](https://https://github.com/parksubeom/Crawl_Naver-Cafe-for-bladder_cancer/issues)를 통해 남겨주세요.
 ```
