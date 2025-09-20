@@ -1,6 +1,3 @@
-### README.md
-
-````markdown
 # 🚀 Crawl_Naver-Cafe-for-bladder_cancer
 
 네이버 카페에서 방광암 관련 게시글과 댓글을 수집하고, 특정 키워드에 대한 언급 횟수를 분석하여 엑셀 파일로 저장하는 크롤러입니다. 환자분들의 경험과 치료 과정에 대한 인사이트를 얻는 데 활용될 수 있습니다.
@@ -128,6 +125,7 @@
 ---
 
 ## 파일 구조
+
 ````
 
 .
@@ -153,4 +151,4 @@ MIT License
 ## 문의사항
 
 문의사항이나 개선 제안은 [GitHub Issues](https://https://github.com/parksubeom/Crawl_Naver-Cafe-for-bladder_cancer/issues)를 통해 남겨주세요.
-```
+````
